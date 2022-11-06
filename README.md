@@ -1,7 +1,6 @@
 # PROY-SQL
 
-
-<<imagen>>
+![alt text](https://github.com/jquintanac/PROY-SQL/blob/main/imgs/sqlproyect.jpg?raw=true)
 
 The goal of this project is to build a database from seven csv files about video club data. These csv files have to be cleaned to work with them and check them to build a sql database.
 
@@ -11,14 +10,11 @@ The goal of this project is to build a database from seven csv files about video
 
 2) Build your databse with at least 10 queries including: join, groupby, orderby, where, subqueries…
 
-
 ## Development
 
 ### Cleaning and treatment data 🧹
 
-
 First of all, I uploaded all csv files in jupyter notebook to look the data and try to comprehend them. Data seemed to be relationated with a video club due to I found information about: films, actor/actress, rental, categories, languages, inventories and a apparently old data about movies.
-
 
 My first step was checking duplicates and data missing. I did not find duplicates but one column in film dataframe seemed to have one column about origin language that was empty so I deleted it for not giving information. 
 After that, I figured out that two dataframe had the same name but the information was not so I changed the 'name' in language for 'name_lang' and the 'name' in category for 'name_cat'. This way is no place for mistakes.
@@ -29,10 +25,9 @@ To work with it, I exported data as csv files to upload directly in MySQL.
 
 ### MySQL 💻
 
-
 I created a new schema (called 'proy') and I uploaded the seven csv files. First of all, I worked in reverse engineer to see the connections, primary and foreign keys. All the connections were many-to-many. Check the result below:
     
-<image>
+![alt text](https://github.com/jquintanac/PROY-SQL/blob/main/imgs/connections.png?raw=true)
     
 I worked on some querys to find interesting information or for using the database in case of need:
 
@@ -70,4 +65,3 @@ https://seaborn.pydata.org/
 https://pandas.pydata.org/docs/
 
 https://towardsdatascience.com/beware-of-storytelling-with-data-1710fea554b0?gi=537e0c10d89e
-
