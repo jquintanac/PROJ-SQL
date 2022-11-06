@@ -47,7 +47,7 @@ I worked on some querys to find interesting information or for using the databas
     
 ♦ Thanks to 'videodep' and count/sum group by queries with order by asc/desc and limit N, you could see the top 3 customers based on fidelity or even check the quantity and profits of sales based on its categories (always drama wins...💔).
 
-♦ Finally, applying a simple subquery we can find the shortest or longest films from a unique category or those ones you like but avoiding those you do not like.
+♦ Finally, applying a simple subquery we can find the shortest or longest films from a unique category or those ones you like but avoiding those you do not like.🤙
 
 
 ## Links & Resources
